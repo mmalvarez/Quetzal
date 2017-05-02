@@ -1,0 +1,19 @@
+-R . OAut
+-R BA BA
+-install none
+COQDOCFLAGS = "-s --charset utf-8 --parse-comments --with-header ../website/resources/header.html --with-footer ../website/resources/footer.html --index indexpage"
+BA/External.v
+BA/BasicDefinitions.v
+BA/FinTypes.v
+BA/Automata.v
+BasicDefs.v
+Seqs.v
+StrictlyMonotoneSeqs.v
+SeqOperations.v
+NFAs.v
+Buechi.v
+Utils.v
+DecLanguageEmpty.v
+fin_languages.v
+NFAConstructions.v
+Complement.v
